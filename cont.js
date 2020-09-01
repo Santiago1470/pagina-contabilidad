@@ -1,3 +1,18 @@
+llamar();
+function llamar() 
+{
+    var contra = prompt("Escriba la contraseña por favor");
+    var confir = "Con esta pagina me salvo";
+
+    if (contra === confir) {
+        alert("bien");
+    } else {
+        location.reload();
+    }
+}
+
+
+
 var fechaInic = document.getElementById("fechaInicio");
 var fechaFn = document.getElementById("fechaFin");
 var diasTo = document.getElementById("diasTotales");
